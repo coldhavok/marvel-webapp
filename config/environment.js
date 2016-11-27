@@ -6,6 +6,8 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    marvelApi: 'http://gateway.marvel.com',
+    marvelApiNamespace: '/v1/public',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

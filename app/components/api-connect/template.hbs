@@ -1,0 +1,14 @@
+<h3>Connect to Marvel API</h3>
+
+<form id="ConnectForm">
+    <p>public: adaa03994293d271df3582232a9c6ba2</p>
+    <p>private: 4c0462e08770f2dcfb4331d20613c4e41bde4438</p>
+    <p>
+      {{input value=connectForm.publickey placeholder="Chave pública"}}
+      {{input value=connectForm.privatekey placeholder="Chave privada"}}
+    </p>
+    <p>
+        <button {{action "getApiData" connectForm}}>Connectar</button>
+    </p>
+</form>
+{{yield}}
